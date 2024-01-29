@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ce362f;
+}
+.burger-text {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 303.748px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 379.685px; /* 125% */
+  display: flex;
+  flex-wrap: wrap;
+}
+.burger-image {
+  margin-top: -230px;
+  margin-left: -85px;
+}
+.content-info {
+  display: flex;
+}
+.order {
+  padding: 15px 35px;
+  border-radius: 8px;
+  border: 2px solid var(--white, #fff);
+  background: #ce362f;
+}
